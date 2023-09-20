@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include appointments *.css
+recursive-include appointments *.csv
+recursive-include appointments *.html
+recursive-include appointments *.ico
+recursive-include appointments *.js
+recursive-include appointments *.json
+recursive-include appointments *.md
+recursive-include appointments *.png
+recursive-include appointments *.py
+recursive-include appointments *.svg
+recursive-include appointments *.txt
+recursive-exclude appointments *.pyc
