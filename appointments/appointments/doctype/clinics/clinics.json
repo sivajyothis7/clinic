@@ -72,11 +72,11 @@
  "is_published_field": "is_published",
  "links": [
   {
-   "link_doctype": "Schedule Shift",
+   "link_doctype": "Schedule Shifts",
    "link_fieldname": "clinic"
   }
  ],
- "modified": "2023-09-21 11:14:25.042425",
+ "modified": "2023-09-21 12:02:20.423539",
  "modified_by": "Administrator",
  "module": "Appointments",
  "name": "Clinics",

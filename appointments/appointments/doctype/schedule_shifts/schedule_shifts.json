@@ -1,86 +1,52 @@
 {
  "actions": [],
- "allow_guest_to_view": 1,
- "allow_rename": 1,
- "autoname": "prompt",
- "creation": "2023-09-21 09:03:14.200791",
+ "creation": "2023-09-21 12:02:02.178483",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "doctor",
-  "contact_number",
-  "route",
-  "column_break_ypgz",
-  "is_published",
-  "doctor_in",
-  "address",
-  "clinic_image"
+  "start_time",
+  "end_time",
+  "title",
+  "clinic"
  ],
  "fields": [
   {
-   "fieldname": "doctor",
-   "fieldtype": "Link",
-   "label": "Doctor",
-   "options": "Doctors",
-   "reqd": 1
-  },
-  {
-   "fieldname": "contact_number",
-   "fieldtype": "Data",
+   "fieldname": "start_time",
+   "fieldtype": "Time",
    "in_list_view": 1,
-   "label": "Contact Number",
+   "label": "Start Time",
    "reqd": 1
   },
   {
-   "fieldname": "route",
+   "fieldname": "end_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "End Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "title",
    "fieldtype": "Data",
-   "label": "Route"
+   "label": "Title",
+   "unique": 1
   },
   {
-   "fieldname": "column_break_ypgz",
-   "fieldtype": "Column Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "is_published",
-   "fieldtype": "Check",
-   "label": "Is Published"
-  },
-  {
-   "default": "0",
-   "fieldname": "doctor_in",
-   "fieldtype": "Check",
-   "label": "Doctor In"
-  },
-  {
-   "fieldname": "address",
-   "fieldtype": "Small Text",
-   "label": "Address"
-  },
-  {
-   "fieldname": "clinic_image",
-   "fieldtype": "Attach Image",
-   "hidden": 1,
-   "label": "Clinic Image"
+   "fieldname": "clinic",
+   "fieldtype": "Link",
+   "label": "Clinic",
+   "options": "Clinics",
+   "reqd": 1
   }
  ],
- "has_web_view": 1,
- "image_field": "clinic_image",
  "index_web_pages_for_search": 1,
- "is_published_field": "is_published",
- "links": [
-  {
-   "link_doctype": "Schedule Shift",
-   "link_fieldname": "clinic"
-  }
- ],
- "modified": "2023-09-21 09:03:14.200791",
+ "links": [],
+ "modified": "2023-09-21 13:55:42.549237",
  "modified_by": "Administrator",
  "module": "Appointments",
  "name": "Schedule Shifts",
- "naming_rule": "Set by user",
+ "name_case": "Title Case",
  "owner": "Administrator",
  "permissions": [
   {
@@ -96,9 +62,9 @@
    "write": 1
   }
  ],
- "route": "clinics",
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "track_changes": 1
+ "title_field": "title"
 }
