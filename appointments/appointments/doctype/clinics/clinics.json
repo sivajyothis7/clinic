@@ -23,7 +23,7 @@
    "fieldname": "doctor",
    "fieldtype": "Link",
    "label": "Doctor",
-   "options": "Doctor",
+   "options": "Doctors",
    "reqd": 1
   },
   {
@@ -76,7 +76,7 @@
    "link_fieldname": "clinic"
   }
  ],
- "modified": "2023-09-21 09:05:00.843654",
+ "modified": "2023-09-21 11:14:25.042425",
  "modified_by": "Administrator",
  "module": "Appointments",
  "name": "Clinics",
