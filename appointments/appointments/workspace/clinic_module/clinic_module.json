@@ -1,0 +1,57 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"wJ0fxN_WKl\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Clinic Masters</b></span>\",\"col\":12}},{\"id\":\"NCRj93ridQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Clinics\",\"col\":3}},{\"id\":\"tDtKfP7lfj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Doctors\",\"col\":3}},{\"id\":\"r_YuFZS613\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Appointments\",\"col\":3}},{\"id\":\"7exNCowbHy\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Shifts</b></span>\",\"col\":12}},{\"id\":\"qNY4Q5c02L\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Schedule Shifts\",\"col\":3}}]",
+ "creation": "2023-09-21 09:12:26.323832",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "call",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Clinic Module",
+ "links": [],
+ "modified": "2023-09-21 09:17:22.812879",
+ "modified_by": "Administrator",
+ "module": "Appointments",
+ "name": "Clinic Module",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Clinics",
+   "link_to": "Clinics",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Schedule Shifts",
+   "link_to": "Schedule Shifts",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Doctors",
+   "link_to": "Doctors",
+   "type": "DocType"
+  },
+  {
+   "color": "Pink",
+   "doc_view": "List",
+   "label": "Appointments",
+   "link_to": "Appointments",
+   "type": "DocType"
+  }
+ ],
+ "title": "Clinic Module"
+}
